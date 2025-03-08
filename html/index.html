@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>의류 쇼핑물</title>
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+<body>
+  <header>
+    <h1>의류 쇼핑몰</h1>
+    <nav>
+      <ul>
+        <li><a href="#">홈</a></li>
+        <li><a href="#">여성</a></li>
+        <li><a href="#">남성</a></li>
+        <li><a href="#">액세서리</a></li>
+        <li><a href="#">연락처</a></li>
+      </ul>
+    </nav>
+    <button id="cart-button">장바구니</button>
+  </header>
+
+  <main>
+    <h2 style="text-align: center; margin-bottom: 30px;">인기 상품</h2>
+    <section class="products">
+      <div class="product">
+        <img src="../image/N_KJqXnISUGrpLAuabkMe-q6jIfW110jQFt5qbPid4vRSU1RXmU-QZgpH8rofVuHy20RrViqq2ujpdvDMBt9wxpLyCFjxPJWx02Gy5VHf5qARz7n981jS0Qo40lvKZxgSfdiZQZ16p7Oz-5nrKnxHQ.webp" alt="상품 1">
+        <h3>상품 1</h3>
+        <p>30,000</p>
+        <button>장바구니에 추가</button>
+      </div>
+      <div class="product">
+        <img src="../image/RqVttjAZFi0YN6M9azueEO3VKF4oFsEtGvMe1DnIA3-W-U-KT8UHRUEx-bJ_oFLyTR_7YNmMpLAtt3qh6h1Nv5Q2zRK9z8PMzD45O_PdtnWPO57sPtoQNKyUrTLLUy8w-rYilDQrI-sDaw15Ydf61Q.webp" alt="상품 2">
+        <h3>상품 2</h3>
+        <p>40,000</p>
+        <button>장바구니에 추가</button>
+      </div>
+    </section>
+    <div id="cart-model" class="modal">
+      <div class="modal-content">
+        <span class="close-button">&times;</span>
+        <h2>장바구니</h2>
+        <ul id="cart-items"></ul>
+        <p id="total-price">총 가격: 0</p>
+      </div>
+    </div>
+  </main>
+
+  <footer>
+    <p>2024 의류 쇼핑몰</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
